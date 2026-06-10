@@ -19,9 +19,9 @@ Pada project PCD ini, kami melakukan eksperimen klasifikasi **tingkat kematangan
 
 Eksperimen dilakukan sebanyak **3 kali percobaan** dengan penambahan preprocessing secara bertahap:
 
-- **Percobaan Pertama** — Preprocessing 1, Preprocessing 2
-- **Percobaan Kedua** — Preprocessing 1, Preprocessing 2, Preprocessing 3 (tahap awal)
-- **Percobaan Ketiga** — Preprocessing 1, Preprocessing 2, Preprocessing 3 (lengkap)
+- **Percobaan Pertama** : Preprocessing 1, Preprocessing 2
+- **Percobaan Kedua** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (tahap awal)
+- **Percobaan Ketiga** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (lengkap)
 
 Dari setiap percobaan, akan dibandingkan akurasi masing-masing model: **KNN**, **SVM**, dan **Random Forest**.
 
@@ -56,11 +56,11 @@ Tahap ini penting untuk menentukan teknik preprocessing yang paling sesuai denga
 
 Pemilihan preprocessing didasarkan pada karakteristik visual citra pisang yang berubah seiring kematangan, seperti warna kulit, kemunculan bintik gelap, dan variasi pencahayaan. Berikut preprocessing yang digunakan:
 
-**Preprocessing 1 — Grayscale + Ekualisasi Histogram + Normalisasi**
+**Preprocessing 1 : Grayscale + Ekualisasi Histogram + Normalisasi**
 
-**Preprocessing 2 — Grayscale + Deteksi Tepi Prewitt + Threshold**
+**Preprocessing 2 : Grayscale + Deteksi Tepi Prewitt + Threshold**
 
-**Preprocessing 3 — Grayscale + Median Filter + Morfologi Opening**
+**Preprocessing 3 : Grayscale + Median Filter + Morfologi Opening**
 
 ---
 

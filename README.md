@@ -19,7 +19,7 @@ Pada project PCD ini, kami melakukan eksperimen klasifikasi **tingkat kematangan
 
 Eksperimen dilakukan sebanyak **3 kali percobaan** dengan penambahan preprocessing secara bertahap:
 
-- **Percobaan Pertama** : Preprocessing 1, Preprocessing 2
+- **Percobaan Pertama** : Preprocessing 1, Preprocessing 2 
 - **Percobaan Kedua** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (tahap awal)
 - **Percobaan Ketiga** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (lengkap)
 

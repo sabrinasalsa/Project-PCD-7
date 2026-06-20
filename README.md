@@ -19,9 +19,9 @@ Pada project PCD ini, kami melakukan eksperimen klasifikasi **tingkat kematangan
 
 Eksperimen dilakukan sebanyak **3 kali percobaan** dengan penambahan preprocessing secara bertahap:
 
-- **Percobaan Pertama** : Preprocessing 1, Preprocessing 2 
-- **Percobaan Kedua** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (tahap awal)
-- **Percobaan Ketiga** : Preprocessing 1, Preprocessing 2, Preprocessing 3 (lengkap)
+- **Percobaan Pertama** : Grayscale + Ekualisasi + Normalisasi 
+- **Percobaan Kedua**   : Grayscale + Deteksi Tepi Prewitt + Threshold
+- **Percobaan Ketiga**  : Grayscale + Median Filter + Morfologi Opening
 
 Dari setiap percobaan, akan dibandingkan akurasi masing-masing model: **KNN**, **SVM**, dan **Random Forest**.
 
@@ -37,7 +37,7 @@ Pada tahap ini dilakukan import seluruh library yang dibutuhkan selama proses kl
 
 Dataset berisi citra buah pisang yang dibagi ke dalam beberapa folder berdasarkan tingkat kematangannya (label). Pada tahap ini seluruh citra dibaca sekaligus beserta labelnya, kemudian diseragamkan ukurannya agar proses selanjutnya dapat berjalan konsisten.
 
-🔗 **Link Dataset:** [Banana Ripeness Dataset — Kaggle](https://www.kaggle.com/datasets/xxxxxxx) *(ganti dengan link dataset kalian)*
+🔗 **Link Dataset:** [Banana Ripeness Dataset — Kaggle](https://www.kaggle.com/datasets/shahriar26s/banana-ripeness-classification-dataset)
 
 ---
 

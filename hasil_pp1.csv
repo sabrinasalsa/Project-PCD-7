@@ -1,0 +1,4 @@
+Classifier,Accuracy,Precision,Recall,F1-Score
+KNN,0.6548,0.6516,0.6548,0.6482
+SVM,0.5952,0.5757,0.5952,0.5755
+Random Forest,0.9881,0.9885,0.9881,0.9881
